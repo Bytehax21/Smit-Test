@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #000;
+    font-family: "Poppins", serif;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 460px;
+    height: 638px;
+    margin-left: 175px;
+    margin-top: 202px;
+    margin-bottom: 202px;
+
+}
+
+.main-container h1 {
+    height: 100px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 24.7px;
+
+}
+
+
+
+
+.Name input {
+    width: 404px;
+    height: 32px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 0px 10px 10px;
+    gap: 10px;
+    /* font-size: 18px; */
+
+    width: 404px;
+    height: 32px;
+
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+
+}
+
+.Password input {
+    width: 404px;
+    height: 32px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 0px 10px 10px;
+    gap: 10px;
+
+    width: 404px;
+    height: 32px;
+
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+
+}
+
+/* .Email-address p {
+    font-size: 14px;
+} */
+
+.Email-address input {
+    width: 404px;
+    height: 32px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 0px 10px 10px;
+    gap: 10px;
+
+    width: 404px;
+    height: 32px;
+
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+
+}
+
+.check-box{
+    display: flex;
+    gap: 5px;
+}
+
+.Sign-button {
+    padding: 6px 172px 6px 185px;
+    background-color: #3A5B22;
+    border: none;
+    border-radius: 10px;
+    width: 403px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+.Sign-button:hover{
+    background-color: #4F742B; 
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.Sign-button button {
+    background: none;
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+    
+}
+
+.line-quote {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    font-size: 12px;
+    /* padding: 3px;   */
+   
+}
+
+.line-quote span {
+    margin: 0 5px;
+    
+}
+.line-quote hr{
+    flex: 1;
+    color: #F5F5F5;
+}
+.main-logo{
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+}
+.logo1{
+    display: flex;
+    border: #D9D9D9 2px solid;
+    border-radius: 10px;
+    align-items: center;
+    padding: 4px 15px 4px 15px;
+    cursor: pointer;
+    width: 190px;
+    height: 32px;
+    transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.logo1:hover{
+    background-color: #F7F7F7; 
+  border-color: #A6A6A6; 
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.logo1 img{
+    margin-right: 10px;
+}
+.logo1 p{
+    /* width: 108px;
+    height: 18px; */
+    font-size: 12px;
+}
+.logo2{
+    display: flex;
+    border: #D9D9D9 2px solid;
+    border-radius: 10px;
+    align-items: center;
+    padding: 4px 15px 4px 15px;
+    cursor: pointer;
+    width: 190px;
+    height: 32px;
+    transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.logo2:hover{
+    background-color: #F7F7F7; 
+  border-color: #A6A6A6; 
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.logo2 img{
+    margin-right: 10px;
+}
+.logo2 p{
+    /* width: 108px;
+    height: 18px; */
+    font-size: 12px;
+}
+.para{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    /* width: 203px; */
+    /* gap: 1px; */
+}
+.para p{
+    font-size: 16px;
+    text-align: center;
+    margin-right: 51px;
+}
+.para a{
+    text-decoration: none;
+    color: #0F3DDE;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+.para a:hover{
+    color: #255FFB; 
+  text-decoration: underline; 
+}
+
+.Tree {
+    
+   width:  781.5px;
+   height: 1042px;
+   transform: translateX(754px);
+   margin-top: -60%;
+   
+
+
+}
+
+/* Media query section  */
+@media only screen and (max-width: 1540px) {
+    .Tree{
+        width: 600px;
+        height: 800px;
+        position: relative;
+        top: 20%;
+    }
+}
+@media only screen and (max-width: 1360px) {
+    .Tree{
+        width: 450px;
+        height: 650px;
+        position: absolute;
+        top: 55vh;
+        
+    }
+}
+@media only screen and (max-width: 1208px) {
+    .Tree{
+        width:300px;
+        height: 450px;
+        position: absolute;
+        top: 55vh;
+        
+        
+    }
+}
+@media only screen and (max-width: 1050px) {
+    .Tree-cont {
+        background-image: url('./chris-lee-70l1tDAI6rM-unsplash\ 1.png');
+        background-size: cover; 
+        background-position: center; 
+      }
+
+}
+@media only screen and (max-width: 1105px) {
+    .Tree-cont{
+        display: none;
+    }
+    
+}
