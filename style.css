@@ -273,3 +273,38 @@ form {
     }
     
 }
+@media only screen and (max-width: 768px) {
+   
+    .Tree-cont {
+        display: none;
+    }
+
+    .main-container {
+        width: 90%; 
+        margin: 20px auto; 
+
+   
+    .Name input,
+    .Email-address input,
+    .Password input {
+        width: 100%; 
+    }
+
+   
+    .Sign-button {
+        padding: 10px;
+        width: 100%; 
+    }
+
+    
+    .line-quote,
+    .para {
+        width: 100%; 
+        text-align: center;
+    }
+
+    .main-logo {
+        flex-direction: column; 
+        gap: 15px;
+    }
+}
